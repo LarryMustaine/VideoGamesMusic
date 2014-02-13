@@ -27,6 +27,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
+
 public class MainActivity extends FragmentActivity {
 
 	private Fragment fragment;
@@ -40,7 +41,7 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.main);
     	
 		//BugSenseHandler.I_WANT_TO_DEBUG = true;
-		BugSenseHandler.initAndStartSession(this, this.getString(R.string.bugsense_api_key));
+		//BugSenseHandler.initAndStartSession(this, this.getString(R.string.bugsense_api_key));
     	ActionBarAccess.instantiateActionBar(this);
     	
         fragment = new FragmentBody();
@@ -52,6 +53,8 @@ public class MainActivity extends FragmentActivity {
         
         setDrawerMenu();
         setDrawerToggle();
+        
+        new GCMManager(this).startGCMService();
     }
 
 	private void setDrawerMenu() {
