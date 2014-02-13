@@ -26,7 +26,8 @@
     <string name="amazon_secret_key">WLOr9Y2WNxWRQBcphyR6aZ1Seh6WJO48GOg7xoBF</string>
     
     <string name="bugsense_api_key">67e27f15</string>
-
+    <string name="gcm_project_id">1002937414761</string>
+    
     <string name="action_bar_title">Video Games Music</string> 
     <string name="action_bar_subtitle">and Tones!</string> 
     <string name="action_rate_app">Rate App</string>

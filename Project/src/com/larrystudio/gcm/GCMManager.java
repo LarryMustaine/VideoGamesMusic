@@ -1,4 +1,4 @@
-package com.larrystudio.gamesmusic;
+package com.larrystudio.gcm;
 
 import java.io.IOException;
 
@@ -13,6 +13,7 @@ import android.util.Log;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.larrystudio.videogamesmusic.R;
 
 public class GCMManager {
 
@@ -93,10 +94,10 @@ public class GCMManager {
 		@Override
 		protected Void doInBackground(Void... params) {
             try {
-                if (gcm == null) {
+                if (gcm == null)
                     gcm = GoogleCloudMessaging.getInstance(context);
-                }
-                regid = gcm.register("1002937414761");
+
+                regid = gcm.register(context.getString(R.string.gcm_project_id));
 
                 sendRegistrationIdToBackend();
                 storeRegistrationId(context, regid);

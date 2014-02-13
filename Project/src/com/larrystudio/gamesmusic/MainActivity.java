@@ -7,6 +7,7 @@ import com.bugsense.trace.BugSenseHandler;
 import com.larrystudio.about.About;
 import com.larrystudio.actionbar.ActionBarAccess;
 import com.larrystudio.drawer.ListMenuDrawerAdapter;
+import com.larrystudio.gcm.GCMManager;
 import com.larrystudio.videogamesmusic.R;
 
 import extras.Codes;

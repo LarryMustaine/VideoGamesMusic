@@ -509,22 +509,22 @@ containing a value of this type.
     
          */
         public static final int DB_URL=0x7f07001e;
-        public static final int about_contact_info=0x7f070049;
-        public static final int about_description=0x7f070047;
-        public static final int about_description2=0x7f070048;
-        public static final int action_bar_subtitle=0x7f070026;
-        public static final int action_bar_title=0x7f070025;
-        public static final int action_buy_app=0x7f070028;
-        public static final int action_rate_app=0x7f070027;
+        public static final int about_contact_info=0x7f07004a;
+        public static final int about_description=0x7f070048;
+        public static final int about_description2=0x7f070049;
+        public static final int action_bar_subtitle=0x7f070027;
+        public static final int action_bar_title=0x7f070026;
+        public static final int action_buy_app=0x7f070029;
+        public static final int action_rate_app=0x7f070028;
         public static final int amazon_access_key=0x7f070022;
         public static final int amazon_bucket=0x7f070021;
         public static final int amazon_secret_key=0x7f070023;
-        public static final int amazon_upload_error=0x7f070044;
-        public static final int amazon_upload_log_notice=0x7f070042;
-        public static final int amazon_upload_log_uploading=0x7f070043;
-        public static final int amazon_upload_ok=0x7f070045;
+        public static final int amazon_upload_error=0x7f070045;
+        public static final int amazon_upload_log_notice=0x7f070043;
+        public static final int amazon_upload_log_uploading=0x7f070044;
+        public static final int amazon_upload_ok=0x7f070046;
         public static final int app_name=0x7f07001f;
-        public static final int app_pay_package_name=0x7f07002b;
+        public static final int app_pay_package_name=0x7f07002c;
         public static final int app_type=0x7f070020;
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
@@ -621,35 +621,36 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f070013;
-        public static final int content_description=0x7f07002c;
-        public static final int dialog_cancel=0x7f070034;
-        public static final int dialog_copy_file=0x7f07003c;
-        public static final int dialog_delete_file=0x7f07003d;
-        public static final int dialog_delete_sound=0x7f070032;
-        public static final int dialog_download=0x7f070030;
-        public static final int dialog_downloading=0x7f070033;
-        public static final int dialog_error=0x7f070036;
-        public static final int dialog_ok=0x7f070035;
-        public static final int dialog_play_sound=0x7f070031;
-        public static final int dialog_set_as_alarm=0x7f07003a;
-        public static final int dialog_set_as_contact=0x7f07003b;
-        public static final int dialog_set_as_notification=0x7f070039;
-        public static final int dialog_set_as_ringtone=0x7f070038;
-        public static final int downloading_db=0x7f07002d;
-        public static final int email_text=0x7f070046;
+        public static final int content_description=0x7f07002d;
+        public static final int dialog_cancel=0x7f070035;
+        public static final int dialog_copy_file=0x7f07003d;
+        public static final int dialog_delete_file=0x7f07003e;
+        public static final int dialog_delete_sound=0x7f070033;
+        public static final int dialog_download=0x7f070031;
+        public static final int dialog_downloading=0x7f070034;
+        public static final int dialog_error=0x7f070037;
+        public static final int dialog_ok=0x7f070036;
+        public static final int dialog_play_sound=0x7f070032;
+        public static final int dialog_set_as_alarm=0x7f07003b;
+        public static final int dialog_set_as_contact=0x7f07003c;
+        public static final int dialog_set_as_notification=0x7f07003a;
+        public static final int dialog_set_as_ringtone=0x7f070039;
+        public static final int downloading_db=0x7f07002e;
+        public static final int email_text=0x7f070047;
+        public static final int gcm_project_id=0x7f070025;
         public static final int pull_to_refresh_pull_label=0x7f07001b;
         public static final int pull_to_refresh_refreshing_label=0x7f07001d;
         public static final int pull_to_refresh_release_label=0x7f07001c;
-        public static final int rate_this_app=0x7f070041;
-        public static final int rate_this_app_remind_later=0x7f070040;
-        public static final int rate_this_app_text_free=0x7f07003f;
-        public static final int rate_this_app_text_payment=0x7f07003e;
-        public static final int refreshing_progress=0x7f07002f;
-        public static final int row_sound_text=0x7f070037;
-        public static final int saving_db=0x7f07002e;
+        public static final int rate_this_app=0x7f070042;
+        public static final int rate_this_app_remind_later=0x7f070041;
+        public static final int rate_this_app_text_free=0x7f070040;
+        public static final int rate_this_app_text_payment=0x7f07003f;
+        public static final int refreshing_progress=0x7f070030;
+        public static final int row_sound_text=0x7f070038;
+        public static final int saving_db=0x7f07002f;
         public static final int spb_default_speed=0x7f07001a;
-        public static final int title_available_sounds=0x7f070029;
-        public static final int title_downloaded_sounds=0x7f07002a;
+        public static final int title_available_sounds=0x7f07002a;
+        public static final int title_downloaded_sounds=0x7f07002b;
     }
     public static final class style {
         /** 
